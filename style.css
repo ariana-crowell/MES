@@ -5,3 +5,16 @@
     padding-top: 19px;
 }
 
+.navbar{
+    height:100px;
+    width: 100px;
+}
+
+li {
+    display: inline;
+  }  
+a {
+    display: block;
+    padding: 8px;
+    background-color: #82C3F4;
+}
