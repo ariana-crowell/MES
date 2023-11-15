@@ -18,3 +18,8 @@ a {
     padding: 8px;
     background-color: #82C3F4;
 }
+
+li:hover{
+    background-color: #82C3F4;
+    text-decoration: underline;
+}
