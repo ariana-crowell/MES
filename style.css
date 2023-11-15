@@ -1,3 +1,19 @@
+.watermark{
+    width:70px;
+    height:70px;
+    position: fixed;
+    top: 0;
+    right: 20px;
+}
+
+.marine{
+    width:300px;
+    height: 300px;
+    position: fixed;
+    top: 0;
+    left: 10px;
+}
+
 .pagechange{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -10,6 +26,11 @@
     width: 100px;
 }
 
+.quiz{
+    height:120px;
+    width:120px;
+}
+
 li {
     display: inline;
   }  
@@ -20,6 +41,6 @@ a {
 }
 
 li:hover{
-    background-color: #82C3F4;
+    background-color:blue;
     text-decoration: underline;
 }
