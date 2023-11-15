@@ -21,6 +21,37 @@
     padding-top: 19px;
 }
 
+.wellness-sec {
+    position: relative;
+    overflow: hidden;
+    background: #FFFFFF;
+    padding: 16px;
+    margin: -46px 28px 0px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.wellness-sec .header-cta {
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    align-items: center;
+}
+
+.wellness-sec .shopcards-sec {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 8px;
+}
+
+.wellness-sec .shopcards-sec .cards-link {
+    text-decoration: none;
+    display: block;
+    background: #F7F7F7;
+    border-radius: 20px;
+    padding: 16px;
+    text-align: center;
+}
+
 .navbar{
     height:100px;
     width: 100px;
