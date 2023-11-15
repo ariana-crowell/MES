@@ -1,26 +1,3 @@
-.watermark{
-    width:70px;
-    height:70px;
-    position: fixed;
-    top: 0;
-    right: 20px ;
-}
-
-.marine{
-    width:300px;
-    height: 300px;
-    position: fixed;
-    top: 0;
-    left: 10px;
-}
-
-.pagechange{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 16px;
-    padding-top: 19px;
-}
-
 .wellness-sec {
     position: relative;
     overflow: hidden;
@@ -48,30 +25,23 @@
     display: block;
     background: #F7F7F7;
     border-radius: 20px;
-    padding: 16px;
+    padding: 16px 8px;
     text-align: center;
+    height:66;
+    width:203;
 }
 
-.navbar{
-    height:100px;
-    width: 100px;
-}
-
-.quiz{
-    height:120px;
-    width:120px;
+.nav{
+    height:30px;
+    width:30px;
 }
 
 li {
     display: inline;
-  }  
+}
+
 a {
     display: block;
     padding: 8px;
     background-color: #82C3F4;
-}
-
-li:hover{
-    background-color:blue;
-    text-decoration: underline;
 }
