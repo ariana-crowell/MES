@@ -10,12 +10,15 @@
     width:200px;
 }
 
-.div-link{
-    font-family: Arial Rounded MT Bold;
-    font-size: 28px;
-    
+.text{
+    width:150px;
+    height:80px;
 }
 
+.nav{
+    height:50px;
+    width:50px;
+}
 .wellness-sec{
     position: relative;
     overflow: hidden;
@@ -34,10 +37,7 @@
     text-align: center;
 }
 
-.nav{
-    height:30px;
-    width:30px;
-}
+
 
 li {
     display: inline;
