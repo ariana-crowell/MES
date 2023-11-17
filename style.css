@@ -159,3 +159,7 @@ div {
 style attribute {
     --sidebar-target-width: 22rem;
 }
+
+.tundraimage{
+  height:500px
+}
