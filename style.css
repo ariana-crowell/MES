@@ -29,12 +29,21 @@ body {
     max-width: 30em;
     background-color: #C6EAF0;
     border: 0;
-    margin:10px 5px 20px 10px;
+    margin:30px 5px 20px 180px;
     box-shadow: 0 7px 7px rgba(0, 0, 0, 0.18);
     border-radius: var(--bs-card-border-radius);
     border: var(--bs-card-border-width)solid var(--bs-card-border-color);
   }
 
+  .card1{
+    max-width: 30em;
+    background-color: #C6EAF0;
+    border: 0;
+    margin:30px 5px 20px 710px;
+    box-shadow: 0 7px 7px rgba(0, 0, 0, 0.18);
+    border-radius: var(--bs-card-border-radius);
+    border: var(--bs-card-border-width)solid var(--bs-card-border-color);
+  }
 
   .card.dark {
     color: #4F8ED9;
@@ -45,6 +54,14 @@ body {
   }
   
   .card img {
+    margin: auto;
+    padding: 0.5em;
+    border-radius: 0.7em;
+    height:200px;
+    width:200px;
+  }
+
+  .card1 img {
     margin: auto;
     padding: 0.5em;
     border-radius: 0.7em;
