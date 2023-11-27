@@ -118,8 +118,6 @@ body {
     text-align: center;
 }
 
-
-
 li {
     display: inline;
 }
@@ -128,6 +126,10 @@ a {
     display: block;
     padding: 8px;
     background-color: #82C3F4;
+}
+
+a .cart-style-icon{
+  background-color: #F9F3DF; 
 }
 
 .pad-inline-24 {
@@ -156,5 +158,10 @@ style attribute {
 
 .tundraimage{
   height:500px
+}
+
+.header-actions-action, .header-menu-actions-action {
+  text-align: right;
+  line-height: 1;
 }
 
