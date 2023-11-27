@@ -32,23 +32,13 @@ body {
     max-width: 30em;
     background-color: #C6EAF0;
     border: 0;
-    margin:30px 5px 20px 180px;
+    margin:auto;
+    margin-top: 30px;
     box-shadow: 0 7px 7px rgba(0, 0, 0, 0.18);
     border-radius: var(--bs-card-border-radius);
     border: var(--bs-card-border-width)solid var(--bs-card-border-color);
     border-radius: 20px;
   }
-
-.card1{
-  max-width: 30em;
-  background-color: #C6EAF0;
-  border: 0;
-  margin:30px 5px 20px 710px;
-  box-shadow: 0 7px 7px rgba(0, 0, 0, 0.18);
-  border-radius: var(--bs-card-border-radius); 
-  border: var(--bs-card-border-width)solid var(--bs-card-border-color);
-  border-radius: 20px;  
-}
 
   .card.dark {
     color: #4F8ED9;
@@ -59,14 +49,6 @@ body {
   }
   
   .card img {
-    margin: 3px 0px 3px 110px;
-    align-items: center;
-    border-radius: 0.7em;
-    height:200px;
-    width:200px;
-  }
-
-  .card1 img {
     margin: 3px 0px 3px 110px;
     align-items: center;
     border-radius: 0.7em;
