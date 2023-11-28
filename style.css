@@ -125,11 +125,7 @@ li {
 a {
     display: block;
     padding: 8px;
-    background-color: #82C3F4;
-}
-
-a .cart-style-icon{
-  background-color: #F9F3DF; 
+    background-color: #F9F3DF;
 }
 
 .pad-inline-24 {
