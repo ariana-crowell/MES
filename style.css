@@ -157,6 +157,7 @@ style attribute {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .fishimage{
   height:500px
 }
@@ -164,8 +165,57 @@ style attribute {
 .swanandkids{
   height:500px
 }
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> cd3b7275cdc42ade92e7333941d4e597598fe0be
 
 .header-actions-action, .header-menu-actions-action {
   text-align: right;
   line-height: 1;
 }
+<<<<<<< HEAD
+=======
+
+.top{
+  transform:rotate(180deg);
+}
+
+div.relative1 {
+  position: relative;
+  left: 30px;
+  top:40px;
+}
+
+div.relative {
+  position: relative;
+  left: 30px;
+  top:25px;
+}
+
+#rectangle{
+  width:50px;
+  height:20px;
+  background:#FFB703;
+}
+
+div.connect{
+  position: relative;
+  left:75px;
+  top:30px;
+}
+>>>>>>> cd3b7275cdc42ade92e7333941d4e597598fe0be
