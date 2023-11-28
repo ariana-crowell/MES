@@ -156,8 +156,52 @@ style attribute {
   height:500px
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .header-actions-action, .header-menu-actions-action {
   text-align: right;
   line-height: 1;
 }
 
+.top{
+  transform:rotate(180deg);
+}
+
+div.relative1 {
+  position: relative;
+  left: 30px;
+  top:40px;
+}
+
+div.relative {
+  position: relative;
+  left: 30px;
+  top:25px;
+}
+
+#rectangle{
+  width:50px;
+  height:20px;
+  background:#FFB703;
+}
+
+div.connect{
+  position: relative;
+  left:75px;
+  top:30px;
+}
