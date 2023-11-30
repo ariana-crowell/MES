@@ -200,6 +200,14 @@ style attribute {
   border-radius: 50%;
 }
 
+.doc{
+  width:200px;
+  height:200px;
+  background-color:#82C3F4;
+  border-radius:50%;
+  display: inline-block;
+}
+
 div.endtail{
   position:relative;
   left:280px;
@@ -238,3 +246,22 @@ div.centersub{
 svg{
   width:80px;
 }
+
+div.penguindoc{
+  position:absolute;
+  top:130px;
+  left:90px;
+}
+
+div.tigerdoc{
+  position: absolute;
+  top: 130px;
+  left: 305px;
+}
+
+div.beardoc{
+  position: absolute;
+  top: 130px;
+  left:520px;
+}
+
