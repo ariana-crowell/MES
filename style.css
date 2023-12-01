@@ -265,3 +265,10 @@ div.beardoc{
   top: 130px;
   left:520px;
 }
+
+.box{
+  position: relative;
+  overflow: hidden;
+  background: #FB8500;
+  border-radius: 20px;
+}
