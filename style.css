@@ -184,6 +184,14 @@ style attribute {
   width:90px;
   height:120px;
   background:#FFB703;
+  border-radius: 20px;
+}
+
+#rectangle2{
+  width: 210px;
+  height: 70px;
+  background: #FB8500;
+  border-radius: 20px;
 }
 
 .dot {
@@ -209,11 +217,26 @@ style attribute {
   display: inline-block;
 }
 
+#rectangle3{
+  width: 140px;
+  height: 80px;
+  background: #FB8500;
+  border-radius: 10px;
+}
+
+#rectangle4{
+  width: 30px;
+  height: 150px;
+  background: #FB8500;
+  border-radius: 10px;
+}
+
 div.endtail{
   position:relative;
   left:280px;
   top:310px;
 }
+
 div.backsub{
   position:relative;
   left: 340px;
@@ -244,6 +267,25 @@ div.centersub{
   top:-15px;
   left:60px;
 }
+
+div.beginscope{
+  position: relative;
+  left: 625px;
+  top: 260px;
+}
+
+div.midrect{
+  position: absolute;
+  left: 34px;
+  top: -25px;
+}
+
+div.toprect{
+  position: absolute;
+  left: 80px;
+  top: -100px;
+}
+
 svg{
   width:80px;
 }
