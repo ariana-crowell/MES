@@ -556,3 +556,10 @@ input[type="radio"]:checked + label span {
   transition: background-color 0.4s linear;
 }
 */
+
+.rehomesum{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;;
+  height: 300px;
+}
