@@ -428,6 +428,10 @@ div.beardoc{
 }
 
 .contact{
-  align-items: flex-end;
   height:200px;
+}
+
+.location{
+  height:200px;
+  width:500px;
 }
