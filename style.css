@@ -426,3 +426,8 @@ div.beardoc{
 .size{
   height: 550px;
 }
+
+.contact{
+  align-items: flex-end;
+  height:200px;
+}
