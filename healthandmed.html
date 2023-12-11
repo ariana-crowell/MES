@@ -19,23 +19,6 @@
     <body>
         <header>
           <img class="watermark" src="Images/watermark.png">
-          <div class="header-actions-action header-actions-action--cart">
-            <a href="#" class="cart-style-icon icon--stroke icon--fill icon--cart sqs-custom-cart header-icon show-empty-cart-state cart-quantity-zero header-icon-border-shape-none header-icon-border-style-outline sqs-template-integrated-shopping-cart" data-test="continue-to-cart" aria-label="0 items in cart">
-              <span class="Cart-inner">  
-                <svg class="icon icon--cart" width="61" height="49" viewBox="0 0 61 49">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.5 2C0.5 1.17157 1.17157 0.5 2 0.5H13.6362C14.3878 0.5 15.0234 1.05632 15.123 1.80135L16.431 11.5916H59C59.5122 11.5916 59.989 11.8529 60.2645 12.2847C60.54 12.7165 60.5762 13.2591 60.3604 13.7236L50.182 35.632C49.9361 36.1614 49.4054 36.5 48.8217 36.5H18.0453C17.2937 36.5 16.6581 35.9437 16.5585 35.1987L12.3233 3.5H2C1.17157 3.5 0.5 2.82843 0.5 2ZM16.8319 14.5916L19.3582 33.5H47.8646L56.6491 14.5916H16.8319Z"></path>
-                <path d="M18.589 35H49.7083L60 13H16L18.589 35Z"></path>
-                <path d="M21 49C23.2091 49 25 47.2091 25 45C25 42.7909 23.2091 41 21 41C18.7909 41 17 42.7909 17 45C17 47.2091 18.7909 49 21 49Z"></path>
-                <path d="M45 49C47.2091 49 49 47.2091 49 45C49 42.7909 47.2091 41 45 41C42.7909 41 41 42.7909 41 45C41 47.2091 42.7909 49 45 49Z"></path>
-                </svg>
-                <div class="icon-cart-quantity">            
-                  <span class="cart-quantity-container">
-                    <span class="sqs-cart-quantity">0</span>
-                  </span>
-                </div>
-              </span>
-            </a>
-          </div>
           <br>  
           <img class="marine" src="Images/leftcorner.png">
             <center><img src="Images/7s3v34xc.png" alt="logo" width="200"></center>
@@ -92,107 +75,158 @@
               </div>
         </header>
         <main>
-          
-          <div class="row">
-            <div class="col-md-6">
-              <div class="card bg-info-subtle mt-4"> 
-                <img src="Images/seaweed bandage.png" class="card-img-top" alt="..."> 
-                <div class="card-body"> 
-                  <div class="text-section">
-                    <h5 class="card-title fw-bold">Seaweed Bandage</h5> 
-                    <p class="card-text">a 24' roll perfect for protecting your injuries from infection, while providing a breathable environment to encourage healing</p> 
-                  </div> 
-                  <div class="cta-section"> 
-                    <div>$12</div> 
-                    <a href="#" class="btn btn-dark">add to cart</a> 
-                  </div> 
-                </div> 
+          <section class="red-black-buy">
+            <div class="container">
+              <div class="row">
+                <ul>
+                  <li>
+                    <div class="col-md-6">
+                      <div class="card bg-info-subtle mt-4">
+                        <img src="Images/seaweed bandage.png" class="card-img-top">
+                        <div class="card-body">
+                          <strong>Seaweed Bandage</strong>
+                          <div class="price"> $12</div>
+                          <p class="padding">A 24' roll perfect for protecting your injuries from infection, while providing a breathable environment to encourage healing</p>
+                          <button class="btn btn-dark" onclick="addToCart('Seaweed Bandage', 12)">Add to Cart</button>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="col-md-6">
+                      <div class="card bg-info-subtle mt-4">
+                        <img src="Images/fish biscuits.jpg" class="card-img-top">
+                        <div class="card-body">
+                          <strong>Fish Biscuits</strong> 
+                          <div class="price"> $</div>
+                          <p class="padding">A 24' roll perfect for protecting your injuries from infection, while providing a breathable environment to encourage healing</p>
+                          <button class="btn btn-dark" onclick="addToCart('Fish Biscuits', 12)">Add to Cart</button>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
               </div>
-            </div>
-            <div class="col-md-6">
-              <div class="card bg-info-subtle mt-4"> 
-                <img src="Images/fish biscuits.jpg" class="card-img-top"> 
-                <div class="card-body"> 
-                  <div class="text-section"> 
-                    <h5 class="card-title fw-bold">Jellyfish Soothing Bomb 
-                    </h5> 
-                    <p class="card-text">about it</p> 
-                  </div> 
-                  <div class="cta-section"> 
-                    <div>$</div> 
-                    <a href="#" class="btn btn-dark">Buy Now</a> 
-                  </div> 
-                </div> 
+              <div class="row">
+                  <li>
+                    <div class="col-md-6">
+                      <div class="card bg-info-subtle mt-4">
+                        <img src="Images/seagrapes.jpg" class="card-img-top">
+                        <div class="card-body">
+                          <strong>Seagrapes</strong>
+                          <div class="price">$</div>
+                          <p class="padding">A 24' roll perfect for protecting your injuries from infection, while providing a breathable environment to encourage healing</p>
+                          <button class="btn btn-dark" onclick="addToCart('Seagrapes', 12)">Add to Cart</button>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="col-md-6">
+                      <div class="card bg-info-subtle mt-4">
+                        <img src="Images/jelli balm.png" class="card-img-top">
+                        <div class="card-body">
+                          <strong>Jelli Balm</strong>
+                          <div class="price">$</div>
+                          <p class="padding">A 24' roll perfect for protecting your injuries from infection, while providing a breathable environment to encourage healing</p>
+                          <button class="btn btn-dark" onclick="addToCart('Jelli Balm', 12)">Add to Cart</button>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
               </div>
-            </div> 
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="card bg-info-subtle mt-4"> 
-                <img src="Images/seagrapes.jpg" class="card-img-top"> 
-                <div class="card-body"> 
-                  <div class="text-section"> 
-                    <h5 class="card-title fw-bold">Fish Biscuit Medicine</h5> 
-                    <p class="card-text">about it</p> 
-                  </div> 
-                  <div class="cta-section"> 
-                    <div>$</div> 
-                    <a href="#" class="btn btn-dark">Buy Now</a> 
-                  </div> 
-                </div> 
-              </div> 
+              <div class="row">
+                  <li>
+                    <div class="col-md-6">
+                      <div class="card bg-info-subtle mt-4">
+                        <img src="Images/fish oil extract.jpg" class="card-img-top">
+                        <div class="card-body">
+                          <strong>Fish Oil Extract</strong>
+                          <div class="price">$</div>
+                          <p class="padding">A 24' roll perfect for protecting your injuries from infection, while providing a breathable environment to encourage healing</p>
+                          <button class="btn btn-dark" onclick="addToCart('Fish Oil Extract', 12)">Add to Cart</button>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="col-md-6">
+                      <div class="card bg-info-subtle mt-4">
+                        <img src="Images/coral fruit.jpg" class="card-img-top">
+                        <div class="card-body">
+                          <strong>Coral Fruit</strong>
+                          <div class="price">$</div>
+                          <p class="padding">A 24' roll perfect for protecting your injuries from infection, while providing a breathable environment to encourage healing</p>
+                          <button class="btn btn-dark" onclick="addToCart('Coral Fruit', 180000.99)">Add to Cart</button>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </div>
+                </ul>
+              
             </div>
-            <div class="col-md-6">
-              <div class="card bg-info-subtle mt-4"> 
-                <img src="Images/jelli balm.png" class="card-img-top"> 
-                <div class="card-body"> 
-                  <div class="text-section"> 
-                    <h5 class="card-title fw-bold">Jellyfish Soothing Bomb 
-                    </h5> 
-                    <p class="card-text">about it</p> 
-                  </div> 
-                  <div class="cta-section"> 
-                    <div>$</div> 
-                    <a href="#" class="btn btn-dark">Buy Now</a> 
-                  </div> 
-                </div> 
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="card bg-info-subtle mt-4"> 
-                <img src="Images/fish oil extract.jpg" class="card-img-top"> 
-                <div class="card-body"> 
-                  <div class="text-section"> 
-                    <h5 class="card-title fw-bold">Jellyfish Soothing Bomb 
-                    </h5> 
-                    <p class="card-text">about it</p> 
-                  </div> 
-                  <div class="cta-section"> 
-                    <div>$</div> 
-                    <a href="#" class="btn btn-dark">Buy Now</a> 
-                  </div> 
-                </div> 
-              </div> 
-            </div>
-            <div class="col-md-6">
-            <div class="card bg-info-subtle mt-4"> 
-              <img src="Images/coral fruit.jpg" class="card-img-top"> 
-              <div class="card-body"> 
-                <div class="text-section"> 
-                  <h5 class="card-title fw-bold">Jellyfish Soothing Bomb 
-                  </h5> 
-                  <p class="card-text">about it</p> 
-                </div> 
-                <div class="cta-section"> 
-                  <div>$</div> 
-                  <a href="#" class="btn btn-dark">Buy Now</a> 
-                </div> 
-              </div> 
-            </div> 
-          </div>
-        </div>
+          </section>
+
+          <section class="cart red-black-buy">
+              <h2>Shopping Cart</h2>
+              <div id="cartItems"></div>
+              <p>Total: $<span id="totalPrice">0</span></p>
+              <button class="checkout-btn" onclick="checkout()">Checkout</button>
+          </section>
+          <script>
+              let cart = [];
+              let total = 0;
+      
+              function addToCart(alien, price) {
+      
+                  cart.push({ alien, price });
+                  total += price;
+      
+                  if (alien === 'Galactic Bundle') {
+                      galacticBundleCount++;
+                  }
+      
+                  updateCartDisplay();
+              }
+      
+              function updateCartDisplay() {
+                  const cartItemsDiv = document.getElementById('cartItems');
+                  cartItemsDiv.innerHTML = '';
+                  cart.forEach(item => {
+                      const cartItemDiv = document.createElement('div');
+                      cartItemDiv.classList.add('cart-item');
+                      cartItemDiv.innerHTML = `
+                          <span>${item.alien} - $${item.price}</span>
+                          <button onclick="removeFromCart('${item.alien}', ${item.price})">Remove</button>
+                      `;
+                      cartItemsDiv.appendChild(cartItemDiv);
+                  });
+      
+                  document.getElementById('totalPrice').innerText = total;
+              }
+      
+              function removeFromCart(alien, price) {
+                  const index = cart.findIndex(item => item.alien === alien && item.price === price);
+                  if (index !== -1) {
+                      total -= price;
+      
+                      if (alien === 'Galactic Bundle') {
+                          galacticBundleCount--;
+                      }
+      
+                      cart.splice(index, 1);
+                      updateCartDisplay();
+                  }
+              }
+      
+              function checkout() {
+                  alert(`Your total comes out to:\n${cart.map(item => `${item.alien} - $${item.price}`).join('\n')}\nTotal: $${total}`);
+                  cart = [];
+                  total = 0;
+                  galacticBundleCount = 0;
+                  updateCartDisplay();
+              }
+          </script>
         </main>
         <footer>
             <br><br>

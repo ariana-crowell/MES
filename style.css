@@ -440,3 +440,11 @@ div.beardoc{
   height:400px;
   width:300px;
 }
+
+.padding{
+  padding-left: 50px;
+}
+
+.price{
+  padding-left: 30px;
+}
